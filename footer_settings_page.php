@@ -2,12 +2,16 @@
 if (!defined('ABSPATH')) {
   exit;
 } 
+
+// It prevent public user to directly access your .php files through URL. Because if your file contains some I/O operations it can eventually be triggered (by an attacker) and this might cause unexpected behavior.
+
 global $variable1;
 global $variable2;
 global $variable3;
 global $variable4;
 global $variable5;
 global $variable6;
+
 if (isset($_POST['link_submit'])) {
   link_opt();
 }

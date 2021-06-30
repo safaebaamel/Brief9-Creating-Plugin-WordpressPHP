@@ -55,7 +55,7 @@ function execute_function() {
  <p style=' font-size:17px; color:white;'>Join Our Community</p>
  <p style=' font-size:17px; color:white;'>FAQ</p>
  </div>
- <div class='footer_text' display:flex; flex-direction:column style='margin-left:5%; text-align: right;font-size: 17px;'>Quote:  ".get_option('quote_text')."</div>
+ <div class='footer_text' display:flex; flex-direction:column style='margin-left:5%; text-align: right;font-size: 17px;'>Made with &#10084; by:  ".get_option('quote_text')."</div>
  <div style='margin-right:3%;
  color:white;
  '>
