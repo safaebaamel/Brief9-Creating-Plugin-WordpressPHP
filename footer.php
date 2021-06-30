@@ -21,7 +21,7 @@ function my_admin_menu () {
   //add_management_page('Footer Text', 'Footer Text', 'manage_options', __FILE__, //'footer_text_admin_page');
   //add new menu and its sub menu 
   add_menu_page('Footer Text title', 'Footer Settings', 'manage_options',
- 'footer_setting_page', 'mt_settings_page', 'dashicons-admin-customizer');
+ 'footer_setting_page', 'mt_settings_page', 'dashicons-visibility');
 add_submenu_page( 'footer_setting_page', 'Page title', 'Sub-menu title', 
 'manage_options', 'child-submenu-handle', 'my_magic_function');
 }
@@ -41,17 +41,19 @@ function execute_function() {
    background-color:black;display:flex ; background:#1c1c1c; align-items:center; justify-content:center; gap:12%;height: 300px;
  '>
  <div style='display:flex; flex-direction:column'>
- <h5 style=' font-size:20px; color:white;' >Contact</h5>
- <p style=' font-size:17px; color:white;'>+212987443</p>
- <p style=' font-size:17px; color:white;'>Kinidi Safi numero15</p>
- <p style=' font-size:17px; color:white;'> Collection@gmail.com</p>
+ <h5 style=' font-size:20px; color:white;' >Our Store</h5>
+ <p style=' font-size:17px; color:white;'>Accessories</p>
+ <p style=' font-size:17px; color:white;'>Clothing</p>
+ <p style=' font-size:17px; color:white;'>Shoes</p>
+ <p style=' font-size:17px; color:white;'>Belts</p>
  </div>
 
  <div style='display:flex; flex-direction:column'>
- <h5 style=' font-size:20px; color:white;' >Page</h5>
- <p style=' font-size:17px; color:white;'>Acceuil</p>
- <p style=' font-size:17px; color:white;'>Cart</p>
- <p style=' font-size:17px; color:white;'> Apropos</p>
+ <h5 style=' font-size:20px; color:white;' >Service Client</h5>
+ <p style=' font-size:17px; color:white;'>Orders</p>
+ <p style=' font-size:17px; color:white;'>Downloads</p>
+ <p style=' font-size:17px; color:white;'>Join Our Community</p>
+ <p style=' font-size:17px; color:white;'>FAQ</p>
  </div>
  <div class='footer_text' display:flex; flex-direction:column style='margin-left:5%; text-align: right;font-size: 17px;'>Quote:  ".get_option('quote_text')."</div>
  <div style='margin-right:3%;
