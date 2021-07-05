@@ -9,6 +9,6 @@ Actualiser votre dashboard, cliquez sur Plugins, Activez le plugin et une config
 
 # Utilité du plugin
 
-Ce plugin permet d'ajouter une footer avec des icons de réseaux sociaux. Un petit formulaire pour inserer les liens et le nom de l'utilisateur.
+Ce plugin permet d'ajouter une footer avec des icons des réseaux sociaux. Un petit formulaire pour inserer les liens et le nom de l'utilisateur.
 
 ![unknown](https://user-images.githubusercontent.com/57509402/123783264-17420f80-d8ce-11eb-91d7-6567f0976ecd.png)
